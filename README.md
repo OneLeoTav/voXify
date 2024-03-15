@@ -33,5 +33,12 @@ Download transcripts in the desired format, choosing between either Word documen
 - `layout/`: This directory contains the HTML template file (`index.html`) and the CSS styling file (`styles.css`) used for the design of the user interface.
 - `.streamlit/`: Comprises the custom `config.toml` file that sets tailored configuration options to optimize the functioning of the application.
 - `utils/`: This directory houses essential Python functions and classes that are utilized throughout the application for various tasks such as data processing, interaction with APIs, or other utility functions.
-- `ffmpeg.exe`: This executable file is necessary for the live speech-to-text functionality, enabling real-time conversion of spoken words to text within the application.
 - `main.py`: This Python script serves as the main entry point for the application, containing the core functionality and orchestrating the overall layout and behavior of the application. It handles routing, data processing, user interactions, and integration with external services or libraries.
+
+## Installation
+First and foremost, ensure you have Python >= 3.8 installed, then:
+1. Clone the project repository: `git clone https://github.com/OneLeoTav/voXify.git`
+2. Navigate to the root of the directory: `cd voXify/`
+3. Install the required Python packages: `pip install -r requirements.txt`
+4. Run the Streamlit application: `streamlit run main.py`
+**Important Notice**: To enable live speech-to-text functionality, it is necessary to locally have the `ffmpeg.exe` file located at the root of the directory. You can retrieve the aforementioned file [here](https://ffmpeg.org/download.html).
