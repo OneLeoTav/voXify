@@ -1,0 +1,79 @@
+/* Set background image */
+.st-emotion-cache-1r4qj8v {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://uhdwallpapers.org/uploads/converted/22/02/14/blue-red-abstract-from-s22-1920x1080_786798-mm-90.webp");
+}
+/*streamlit header*/
+.st-emotion-cache-18ni7ap {
+background: rgba(255,255,255, 0.0);
+}
+/*Transcript from YT*/
+.st-emotion-cache-p5msec {
+    color: #f1677e;
+}
+/*YT URL & Download button*/
+.st-emotion-cache-ue6h4q {
+    color: #f1677e;        
+}
+/*YT URL & Download button*/
+.st-emotion-cache-1vbkxwb {
+    font-size: 20px;
+}
+/*transcript expander_YT */
+.st-emotion-cache-5rimss {
+    color: #FFFFFF;
+}
+/*Font-color for the Uploaded audio file*/
+.st-emotion-cache-1on073z .e1b2p2ww6 {
+    color: white;
+}
+/*Font-color of the uploaded audio file size*/
+.st-emotion-cache-1aehpvj {
+    color: white;
+}
+.fade-in {
+    animation: fade-in 7s ease-in-out, pulse 3s 5s 1 forwards ;
+    margin: 0 auto; 
+    /*color: #fff;*/
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Animation for the text to appear on the home page */
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.typewriter {
+    color: #fff;
+    font-size: 170px;
+    white-space: nowrap;
+    font-weight:bold;
+    overflow: hidden;
+    margin: 0 auto;  /*Center the element horizontally */
+    width:0;
+    animation: type 5s steps(60, end) forwards;
+}
+
+@keyframes type {
+    to {
+      width: 100%;
+    }
+}
+@keyframes blink {
+    to {
+      opacity: .0;
+    }
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.2); /* Scale the text slightly larger */
+    }
+    100% {
+        transform: scale(1); /* Scale the text slightly larger */
+    }
+}
