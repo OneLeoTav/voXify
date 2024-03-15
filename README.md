@@ -8,12 +8,14 @@ Welcome to the **voXify** repository, a web application powered by Streamlit. **
 ## Main Features
 **YouTube Transcription 🎬**\
 vo**X**ify offers the ability to convert any YouTube video into text, leveraging `pytube` library as well as [Whisper](https://github.com/openai/whisper), OpenAI's open-source speech-to-text model.
+
 <img src="media/voXify_YT_gif.gif" alt="YT GIF" width="300" height="160">
 
 
 **Audio File Transcription 📤**\
 Transcribe audio files of various formats (WAV, MP3, M4A, MP4, MPEG4) into text by simply uploading them through the file uploader widget provided for this purpose.
-<img src="media/voXify_Audio_gif.gif" alt="Audio GIF" width="300" height="160">
+
+<img src="media/voXifY_Audio_gif.gif" alt="Audio GIF" width="300" height="160">
 
 **Real-time Microphone Transcription 💬**\
 Obtain live transcriptions directly from your microphone. voXify captures speech in real-time and provides a simultaneous display of both the transcript and the relate soundwave.
